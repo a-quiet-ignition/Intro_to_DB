@@ -1,3 +1,11 @@
-USE alx_book_store;
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword", 
+  database="alx_book_store"
+)
 
-SELECT * FROM Books;
+mycursor = mydb.cursor()
+
+sql = "SELECT * FROM Books"
+mycursor.execute(sql)
