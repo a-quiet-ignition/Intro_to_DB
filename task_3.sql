@@ -1,1 +1,3 @@
-SELECT * FROM Books, Authors, Customers, Orders, Order_Details;
+USE alx_book_store
+
+SHOW TABLES;
