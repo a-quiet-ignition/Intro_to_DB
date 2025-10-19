@@ -1,0 +1,1 @@
+SELECT * FROM Books, Authors, Customers, Orders, Order_Details;
