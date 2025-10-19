@@ -1,11 +1,1 @@
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="yourusername",
-  password="yourpassword", 
-  database="alx_book_store"
-)
-
-mycursor = mydb.cursor()
-
-sql = "SELECT * FROM Books"
-mycursor.execute(sql)
+["INFORMATION_SCHEMA.COLUMNS", "COLUMN_NAME", "COLUMN_TYPE", "TABLE_SCHEMA = 'alx_book_store'", "TABLE_NAME = 'Books'"]
